@@ -1,0 +1,591 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lalezar&display=swap');
+
+body{
+    background-color: var(--backround-color);
+    font-family: 'Lalezar', sans-serif;
+    font-family: 'Inter', sans-serif;
+    max-width: 1400px;
+    cursor: url('img/pointer.cur'), pointer;
+}
+
+
+
+:root {
+    --primary-color: #96A6A3;
+    --quaternary-color: #444442;
+    --tertiary-color: #000;
+    --backround-color: #E2E1DD; 
+}
+
+/* .dark{
+    --primary-color: #000000;
+    --quaternary-color: #444442;
+    --tertiary-color: #000;
+    --backround-color: #ddca83; 
+} */
+
+.main {
+    position: relative;
+    overflow: hidden;
+}
+
+a{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    color: var(--tertiary-color);
+}
+
+
+h1{
+    font-family: 'Lalezar', sans-serif;
+    font-size: 150px;
+}
+
+h2{
+    font-family: 'Lalezar', sans-serif;
+    font-size: 89px;
+
+}
+ 
+h5{
+    font-family: 'Lalezar', sans-serif;
+    font-size: 120px;
+    color:var(--tertiary-color);
+}
+
+h6{
+    font-family: 'inter', sans-serif;
+    font-size: 40px;
+    color: var(--tertiary-color);
+}
+
+.main-title{
+    word-spacing: -2px;
+    margin: 0%;
+    color: var(--tertiary-color);
+    height: 150px;
+
+}
+
+.main-text{
+    margin: 0%;
+    color: var(--tertiary-color);
+    width: 70%;
+    height: 10%;
+    position: absolute;
+    top: 40%;
+    margin-left: 22%;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    margin: 0px;
+    color: var(--tertiary-color);
+}
+
+h4{
+    font-family: 'Lalezar', sans-serif;
+    font-size: 180px;
+    color: var(--tertiary-color);  
+    height: 385px;
+    width: 100%;
+    line-height: 75%; 
+}
+
+
+
+/* --------------------------------------------TEXT */
+
+
+.header .container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto 0;
+}
+
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.menu-item{
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+    border-radius: 50px;
+    width: 140px;
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+}
+
+
+
+.menu-item:hover{
+    border: 1px solid rgb(35, 134, 118);
+}
+
+.contact__link{
+    text-decoration: none;
+}
+
+.phone{
+    width: 24px;    
+}
+
+.call{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.start{
+    padding-top: 56px;
+}
+
+.fon{
+    background-color:var(--primary-color);
+    width: 45%;
+    height: 640px;
+    margin-left: 295px;
+}
+
+.photo{
+    margin-right: 246px;
+    height: 640px;
+    position: relative;
+}
+
+.down{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -65px;
+    width: 100%;
+}
+
+.name{
+    width: 13%;
+}
+
+    
+
+
+
+/* about me---------------------------------------- */
+
+.about_me{
+    padding: 0;
+    text-decoration: none;
+}
+
+.second_page{
+    display: grid;
+    grid-template-columns: 485px 1400px;
+
+}
+
+.text{
+    padding-top: 155px;
+    padding-bottom: 155px;
+    max-width: 480px;
+    margin-right: 0;
+}
+
+.fond{
+    background-color: var(--primary-color);
+    width: 55%;
+    height: 835px;
+}
+
+
+.fond-text:hover{
+    color: var(--backround-color);
+}
+
+
+
+/* skills---------------------------------------- */
+
+.skills{
+    padding: 0;
+    text-decoration: none;
+}
+
+.third_page{
+    display: flex;
+    flex-direction: column;
+}
+
+.tabl-with-skills{
+    width: 95%;
+    grid-gap: 25px 18px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 auto 0 auto;
+}
+
+.blok{
+    border: 1px solid var(--tertiary-color);
+    width: 260px;
+    height: 152px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.small-blok {
+    border: 1px solid var(--tertiary-color);
+    width: 260px;
+    height: 240px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.all{
+    margin-top: 160px;
+    margin-bottom: 50px;
+}
+
+.fond-skills{
+    width: 100%;
+    padding-top: 45px;
+    padding-bottom: 35px;
+    background-color: var(--primary-color)
+}
+
+
+
+/* portfolio---------------------------------------- */
+
+.portfolio{
+    padding: 0;
+    text-decoration: none;
+}
+
+
+
+
+.page{
+    display: flex;
+    flex-direction: column;
+}
+
+.all-title{
+    margin-top: 170px;
+    margin-bottom: 0;
+    height: 130px;
+}
+
+
+.all-text{
+    width: 100%;            
+    margin: 0;
+}
+
+.example{
+    gap: 40px;
+    margin-top: 95px;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    margin-left: 200px;
+}
+
+.square{
+    display: grid;
+    width: 300px;
+    height: 300px;
+    border: 1px solid var(--tertiary-color);
+    background: var(--primary-color);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 23px;
+}
+
+
+
+.square:hover{
+    border: 1px solid rgb(35, 134, 118);
+
+}
+
+/* footer---------------------------------------- */
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 240px;
+    padding-top: 265px;
+}
+
+hr{
+    border: 1px solid var(quaternary-color);
+    width: 505px;
+}
+
+.fotter-text{
+    margin-top: -4px;
+}
+
+.contacts-icons{
+    display: flex;
+    gap: 8px;
+    margin-top: 46px;
+    align-items: center;
+}
+
+.line{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* .icon{
+    display: none;
+}  */
+
+.media:hover{
+    width: 50px;
+}
+
+
+/* .sendvich {
+    display: none;
+} */
+
+
+
+
+
+@media screen and (max-width: 400px) {
+
+.header .container{ 
+    width: 100%;
+}  
+
+/* .container{
+    display: block;
+} */
+
+a{
+    font-size: 16px; 
+}
+    
+h1{
+    font-size: 70px;
+}
+    
+h2{
+    font-size: 35px;
+}
+     
+h4{
+    font-size: 50px;
+    width: 161px;
+    height: 20px;
+    margin-top: 45%;
+}
+
+h5{
+    font-size: 41px;
+}
+    
+h6{
+    font-size: 18px;
+}
+    
+.main-text{
+    width: 100%;
+    top: 25%;
+    margin-left: 1%;
+}
+        
+p{
+    font-size: 10px;
+}
+
+
+/* .icon {
+    display: flex;
+    width: 35px;
+} */
+
+
+.main-title{
+    height: 55px;
+    z-index: 1;
+}
+                
+.fon{
+    width: 80%;
+    height: 400px;
+    margin-left: 72px;
+}
+
+.photo{ 
+    z-index: 0;
+    height: 400px;   
+    width: 120%; 
+    margin-right: 0;
+}
+
+
+.start{
+    padding-top: 5%;
+}
+
+.menu-item {
+    width: 65px;
+    padding: 3px;
+}
+
+.menu-list{
+    gap: 5px;
+}
+
+.link{
+    font-size: 10px;
+}
+
+.phone{
+    width: 20px;
+}
+
+
+.about_me{
+    padding-top: 9%;
+    padding-bottom: 10%;
+}
+
+.second_page{
+    grid-template-columns: 155px 320px;
+}
+
+.text{
+    padding-top: 50px;
+    max-width: 155px;
+    padding-bottom: 0;
+}
+
+.small{
+    max-width: 130px;
+}
+
+.fond{
+    height: 110%;
+    width: 64%;
+    margin-left: 18px;
+}
+
+
+
+.all{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.fond-skills{
+    width: 100%;
+    padding-top: 10px;
+}
+
+.tabl-with-skills{
+    grid-gap: 10px 5px;
+    margin: 0 auto 0 auto;
+}
+
+.blok{
+    width: 80px;
+    height: 60px;
+    justify-items: center;
+}
+
+
+.small-blok {
+    width: 80px;
+    height: 80px;  
+    justify-items: center;
+}
+
+.skills-icon{
+    width: 50%;
+}
+
+
+.all-title{
+    margin-top: 10%;
+    height: 45px;
+}
+
+.example {
+    gap: 30px;
+    margin-top: 25px;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 0;
+}
+
+.square {
+    width: 165px;
+    height: 120px;
+}
+
+.works{
+    width: 150px;
+}
+
+
+.work{
+    width: 120px;
+}
+
+
+.work_dance{
+    width: 75px;
+}
+
+.works_two{
+    width: 110px;
+}
+
+
+.footer {
+    height: 150px;
+    padding-top: 100px;
+}
+
+.fotter-text{
+    font-size: 10px;
+}
+
+hr{
+    width: 135px;
+}
+
+.contacts-icons {
+    margin-top: 30px;
+}
+
+.media{
+    width: 30px;
+}
+
+.media:hover{
+    width: 30px;
+}
+
+}
